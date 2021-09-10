@@ -1,0 +1,324 @@
+.body {
+  background-color: #218FFD;
+  margin: 0px;
+  box-sizing: border-box; }
+
+.bien {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2px; }
+
+.bien-fondo {
+  background-image: url(https://coworkingfy.com/wp-content/uploads/2019/11/trabajo-en-equipo-grupo-figurativo-de-equipo-de-trabajo-1024x612.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.titulo h1 {
+  width: 100%;
+  font-size: 50px;
+  align-self: center;
+  text-shadow: 3px 3px 5px #4b4b4b;
+  color: black;
+  text-align: center;
+  letter-spacing: 5px; }
+
+header {
+  position: sticky;
+  z-index: +2;
+  top: 0px;
+  margin-right: 0px; }
+
+.enca {
+  background: -webkit-linear-gradient(top, #1a7de0, #1669bd); }
+
+.menu a button {
+  border-radius: 20px; }
+
+.btn {
+  transition: background-color 0.5s ease; }
+
+.menu a .boton-transition:hover {
+  background-color: #6eb8ce;
+  box-shadow: 1px 1px 4px 1px black; }
+
+/*SEccion Video*/
+.pregunta {
+  background-color: #2076cc;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 2px;
+  margin-bottom: 0px; }
+
+.pregunta {
+  margin: 0px;
+  font-size: 30px;
+  background-color: #218FFD; }
+
+.video {
+  display: flex;
+  justify-content: center;
+  background-color: #218FFD;
+  padding-bottom: 20px;
+  margin-bottom: 2px;
+  box-sizing: border-box; }
+
+/*Seccion footer*/
+footer {
+  background-color: #218FFD; }
+  footer p {
+    margin: 0px; }
+
+.col-md-12 p {
+  width: 100%;
+  text-align: center;
+  margin: 0px; }
+
+.carrusel {
+  background-color: #218FFD;
+  margin-top: 2px;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.porta {
+  padding-top: 0px;
+  margin-bottom: 2px;
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: #218FFD;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.grid {
+  width: 1fr;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5px; }
+
+.secciones-portafolio {
+  width: 1fr;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: center; }
+
+.textos h2 {
+  color: black;
+  text-shadow: none;
+  text-align: left;
+  padding: 5px;
+  margin-top: 0px;
+  font-size: 20px; }
+
+.textos {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto; }
+
+.secciones-portafolio p {
+  width: auto;
+  box-sizing: border-box;
+  color: black;
+  padding: 0;
+  text-align: justify;
+  font-size: 18px;
+  background-color: initial;
+  border-radius: 20px;
+  margin-top: 0px;
+  margin-bottom: 15px; }
+
+.seccion {
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: auto;
+  margin-right: auto; }
+
+/* SECCION DE SOBRE NOSOTROS */
+.sobreNostros {
+  background-color: #218FFD;
+  margin-top: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  margin-bottom: 2px;
+  margin-left: 0px;
+  margin-right: 0px;
+  height: 505px; }
+
+.sobreEquipo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: auto; }
+
+.sobreEquipo-box {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.sobreEquipo-fondo {
+  text-align: justify;
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 25px; }
+
+.sobreEquipo-texto {
+  text-align: justify; }
+  .sobreEquipo-texto p {
+    font-size: 22px; }
+
+.sobreEmpresa {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  margin: auto; }
+
+.sobreEmpresa-box {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px; }
+
+.sobreEmpresa-fondo {
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 25px; }
+
+.sobreEmpresa-texto {
+  text-align: justify; }
+  .sobreEmpresa-texto p {
+    font-size: 22px; }
+
+/*Tabla*/
+.tablaSitio {
+  background-color: #218FFD;
+  margin: 0px;
+  margin-bottom: 1px;
+  height: 350px; }
+
+.tabla {
+  width: 100%;
+  background-color: #218FFD;
+  align-items: center;
+  margin-top: 1px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+  border: 1px black; }
+
+.info {
+  padding: 10px; }
+
+.info-letra {
+  font-size: 18px;
+  text-align: justify; }
+
+table {
+  border-collapse: collapse; }
+
+.tabla h2 {
+  text-transform: uppercase; }
+
+/* Subsitio de contacto */
+.contac {
+  box-sizing: border-box;
+  background-color: #218FFD;
+  width: 100%;
+  height: 862px;
+  padding: 20px; }
+
+.formulario {
+  width: 600px;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.25);
+  margin: auto;
+  padding-left: 20px;
+  padding: 20px;
+  padding-bottom: 35px;
+  border-radius: 25px; }
+
+.label {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 30px; }
+
+.entrada {
+  height: 40px;
+  font-family: 'Noto Sans JP', sans-serif;
+  background-color: rgba(255, 255, 255, 0.25);
+  color: black;
+  border-radius: 7px; }
+
+.textarea {
+  resize: none;
+  font-family: 'Noto Sans JP', sans-serif;
+  background-color: rgba(255, 255, 255, 0.25);
+  color: black;
+  border-radius: 10px; }
+
+#boton {
+  width: 100px;
+  height: 50px;
+  text-align: center; }
+
+.preguntasfrecuentes {
+  background-color: #218FFD;
+  height: 700px; }
+
+.pregun-f {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding-left: 15px;
+  font-size: 20px;
+  border-bottom: 1px solid black; }
+  .pregun-f h3 {
+    background-color: #131313;
+    width: 650px;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius: 50px;
+    color: #218FFD; }
+  .pregun-f p {
+    font-size: 22px; }
+
+.prueba-1 {
+  width: 150px;
+  background-color: grey; }
+
+.prueba-2 {
+  width: 300px;
+  background-color: grey; }
+
+.prueba-3 {
+  width: 450px;
+  background-color: grey; }
+
+.text1 {
+  background-color: #55acee; }
+
+.text2 {
+  background-color: #3a5795; }
+
+.text3 {
+  background-color: #c25e30; }
